@@ -2611,4 +2611,8 @@ footer .copyright span:last-child::after {
 p.lead, .section-intro h1, h3, .about-content p, #contact .section-intro h5, .contact-info h5 {
 	color: white !important;
 }
+
+#portfolio .section-intro h5, #portfolio .section-intro h1 {
+	color: #424242 !important;
+}
 /*# sourceMappingURL=main.css.map */
