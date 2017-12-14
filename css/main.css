@@ -70,7 +70,7 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #424242;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -1041,7 +1041,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #FF0077;
+	color: white;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1337,7 +1337,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #cc005f;
+	color: white;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1384,7 +1384,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: white;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1416,7 +1416,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #424242;
 }
 
 /**
@@ -1490,7 +1490,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #about {
-	background: #ebebeb;
+	background: #424242;
 	padding-top: 7rem;
 	padding-bottom: 7rem;
 }
@@ -1504,10 +1504,10 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 10rem;
-	width: 10rem;
+	height: 15rem;
+	width: 15rem;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
+	margin: .9rem 5rem 0 0;
 	float: left;
 }
 .intro-info .lead {
@@ -2254,16 +2254,16 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #contact {
-	background: #151515;
+	background: #424242;
 	padding-top: 7rem;
 	padding-bottom: 0rem;
 }
 
 #contact a, #contact a:visited {
-	color: #6e6e6e;
+	color: white;
 }
 #contact a:hover, #contact a:focus {
-	color: #FF0077;
+	color: #bdbdbd;
 }
 
 #contact .section-intro h1 {
@@ -2433,7 +2433,7 @@ header .logo a {
 	margin-bottom: 2.1rem;
 }
 .contact-info .icon i {
-	font-size: 4.2rem;
+	font-size: 6rem;
 	color: #FFFFFF;
 }
 .contact-info h5 {
@@ -2590,8 +2590,8 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
-	color: #FFFFFF;
+	background: #212121;
+	color: white;
 	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
@@ -2605,7 +2605,10 @@ footer .copyright span:last-child::after {
 	line-height: inherit;
 }
 #go-top a:hover {
-	background: #000000;
+	background: #bdbdbd;
 }
 
+p.lead, .section-intro h1, h3, .about-content p, #contact .section-intro h5, .contact-info h5 {
+	color: white !important;
+}
 /*# sourceMappingURL=main.css.map */
