@@ -1790,7 +1790,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #portfolio {
-	background: #FFFFFF;
+	background: #f1f1f1;
 	padding-top: 7rem;
 	padding-bottom: 12rem;
 }
@@ -1845,7 +1845,7 @@ header .logo a {
 
 #portfolio .folio-title {
 	color: #FFFFFF;
-	font-size: 3.3rem;
+	font-size: 4.8rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
 }
@@ -1854,7 +1854,7 @@ header .logo a {
 	padding: 0;
 	text-transform: uppercase;
 	font-family: "poppins-regular", sans-serif;
-	font-size: 1.2rem;
+	font-size: 2.2rem;
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
 }
@@ -2614,5 +2614,10 @@ p.lead, .section-intro h1, h3, .about-content p, #contact .section-intro h5, .co
 
 #portfolio .section-intro h5, #portfolio .section-intro h1 {
 	color: #424242 !important;
+}
+
+.item-wrap {
+	margin: 5px 25px;
+  padding: 10px;
 }
 /*# sourceMappingURL=main.css.map */
